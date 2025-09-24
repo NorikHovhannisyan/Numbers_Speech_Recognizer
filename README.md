@@ -30,12 +30,13 @@ This project takes audio recordings of spoken digits (0–9) and uses a machine 
 ## Requirements
 
 - Python 3.7+  
-- Required Python packages: see `requirements.txt` (e.g. `numpy`, `scikit-learn`, `librosa`, etc.)  
+- Required Python packages: see `requirements.txt` (e.g. `numpy`, `scikit-learn`, `librosa`, etc.)
+- `sounfile` or `wave` (for audio loading)  
 - (Optional) GPU if you expand the model  
 
-## Getting Started
+## Instalation
 
-### Clone the Repo
+### Clone this Repo
 
 ```bash
 git clone https://github.com/NorikHovhannisyan/Numbers_Speech_Recognizer.git
