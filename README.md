@@ -30,8 +30,11 @@ This project takes audio recordings of spoken digits (0–9) and uses a machine 
 ## Requirements
 
 - Python 3.7+  
-- Required Python packages: see `requirements.txt` (e.g. `numpy`, `scikit-learn`, `librosa`, etc.)
-- `sounfile` or `wave` (for audio loading)  
+- Libraries
+  - `numpy`
+  - `scipy` or `librosa` (for audio feature extraction)
+  - `skikit-learn` or other ML framework used
+  - `sounfile` or `wave` (for audio loading)  
 - (Optional) GPU if you expand the model
 -  A trained model (provided as model.pkl)
 
